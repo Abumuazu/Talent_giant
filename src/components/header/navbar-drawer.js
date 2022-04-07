@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx, Box, Image, Button, MenuButton } from 'theme-ui';
 import React, { useContext } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'components/link';
 import { DrawerContext } from 'contexts/drawer/drawer-context';
 import Drawer from 'components/drawer';
 import Logo from 'components/logo';
@@ -45,12 +45,8 @@ const NavbarDrawer = () => {
           {menuItems.map(({ path, label }, i) => (
             <Box as="li" key={i}>
               <Link
-                activeClass="active"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+              
+                key={i} path={path} label={label}
               >
                 {label}
               </Link>
