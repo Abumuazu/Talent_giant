@@ -30,11 +30,9 @@ const Banner = () => {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
-            <Heading style={{color: "#07703C", fontWeight: "bold"}} as="h1">Unlocking Potentials</Heading>
+            <Heading style={{color: "#07703C", fontWeight: "bold"}} as="h1">Unlocking your potentials</Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+            Unlock your Potentials!!, The Giant lies within YOU!!!.
             </Text>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
             {/* <Flex sx={styles.sponsoredBy}>

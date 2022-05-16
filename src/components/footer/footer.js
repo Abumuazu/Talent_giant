@@ -39,6 +39,7 @@ const styles = {
   footerTopInner: {
     gap: [50, null, null, null, 0, 50],
     display: ['grid'],
+    cursor: "pointer",
     gridTemplateColumns: [
       'repeat(2, 1fr)',
       null,
@@ -49,6 +50,7 @@ const styles = {
     mb: [null, null, null, 7],
   },
   footerInner: {
+    cursor: "pointer",
     borderTop: [null, null, null, `1px solid #D9E0E7`],
     display: ['block', null, 'flex'],
     alignItems: 'center',

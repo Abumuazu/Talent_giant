@@ -2,16 +2,25 @@
 /** @jsx jsx */
 import { jsx, Box, Image, Heading, Text } from 'theme-ui';
 import { LearnMore } from 'components/link';
+import { useState } from 'react';
 
 const Feature = ({ data, ...props }) => {
+const [isActive, setIsActive] = useState(false)
+
+
   return (
     <Box sx={styles.feature} {...props}>
       <Box as="figure">
         <Image src={data?.icon} alt={data?.title} />
       </Box>
       <Box>
-        <Heading as="h4">{data?.title}</Heading>
-        <Text as="p">{data?.description}</Text>
+<div style={{justifyContent:"space-between", alignItems:"center", display:"flex", cursor:'pointer' }} onClick={() => setIsActive(!isActive)}>
+<Heading as="h4">{data?.title}</Heading>
+<div>{isActive ? "-" : "+"}</div>
+</div>
+{
+isActive &&         <Text as="p">{data?.description}</Text>
+}
         {data?.path && <LearnMore path={data?.path} />}
       </Box>
     </Box>

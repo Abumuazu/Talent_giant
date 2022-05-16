@@ -8,6 +8,7 @@ import UltimateFeatures from 'sections/ultimate-features';
 import CustomerSupport from 'sections/customer-support';
 import Pricing from 'sections/pricing';
 import Support from 'sections/support';
+import Form from '../components/Form';
 import Clients from 'sections/clients';
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
@@ -24,7 +25,7 @@ export default function IndexPage() {
        <div style={{marginTop: 100}}>
        <Support />
        </div>
-      
+<Form />
       </Layout>
     </ThemeProvider>
   );

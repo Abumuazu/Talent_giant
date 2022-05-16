@@ -18,32 +18,28 @@ const data = [
     icon: icon2,
     path: '',
     title: 'Tutoring ',
-    description: `We are trusted
-    learning partners`,
+    description: `We are trusted learning partners. We have highly skilled professionals who understand how to deliver results at your convenience`,
   },
   {
     id: 4,
     icon: icon4,
     path: '',
     title: 'Coaching',
-    description: `We bring out the
-    giant in you!`,
+    description: `We understand the vital role that a coach can play in guiding you along the right path. Our coaches are trained to bring out the best in you. `,
   },
   {
     id: 5,
     icon: icon5,
     path: '',
     title: 'Consulting ',
-    description: `Customized
-    Financial Advisory`,
+    description: `Our approach to consulting is unique. Our network of professionals are trained to carefully identify clients' needs, analyze them deeply and work with you to arrive at the most appropriate solutions. Our scope of services ranges from business and management consulting, financial advisory and personal finance coaching.`,
   },
   {
     id: 6,
     icon: icon6,
     path: '',
     title: 'Freelancing',
-    description: `We find right jobs
-    for your skills`,
+    description: `We partner with professionals with varied skills; working with clear goals that match our customers’ specific needs. `,
   },
 ];
 
@@ -53,7 +49,7 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          slogan="Ideal solutions for you"
+          slogan=""
           title="Our product offerings"
         />
         <Box sx={styles.grid}>

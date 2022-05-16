@@ -18,29 +18,22 @@ const data = [
     icon: icon2,
     path: '',
     title: 'Mission ',
-    description: `We are trusted
-    learning partner, We are trusted
-    learning partner, We are trusted
-    learning partners`,
+    description: `To assist individuals and businesses in maximizing the impact of their potential by providing personalized coaching and advisory services.`,
   },
   {
     id: 4,
     icon: icon4,
     path: '',
     title: 'Vision',
-    description: `We bring out the
-    giant in you!, We are trusted
-    learning partner`,
+    description: `Awaken The Giant in You`,
   },
-  {
-    id: 5,
-    icon: icon5,
-    path: '',
-    title: 'Goals ',
-    description: `Customized
-    Financial Advisory, We are trusted
-    learning partner`,
-  },
+  // {
+  //   id: 5,
+  //   icon: icon5,
+  //   path: '',
+  //   title: 'Consulting ',
+  //   description: `Our approach to consulting is unique. Our network of professionals are trained to carefully identify clients' needs, analyze them deeply and work with you to arrive at the most appropriate solutions. Our scope of services ranges from business and management consulting, financial advisory and personal finance coaching.`,
+  // },
 ];
 
 const UltimateFeatures = () => {

@@ -3,19 +3,25 @@
 import { jsx, Flex, Heading, Image, Text } from 'theme-ui';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import { rgba } from 'polished';
+import {useState} from "react"
 
 const SupportType = ({ data }) => {
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <div sx={styles.card}>
       <Flex as="figure" sx={styles.icon}>
         <Image src={data.icon} alt="" />
       </Flex>
       <div sx={styles.content}>
-        <Heading as="h3">
+    <div onClick={() => setIsActive(!isActive)}>
+    <Heading as="h3" style= {{cursor: 'pointer'}} >
           {data.title}{' '}
-          <HiOutlineArrowNarrowRight color={rgba('#0F2137', 0.3)} />
+          {/* <HiOutlineArrowNarrowRight color={rgba('#0F2137', 0.3)} /> */}
+          <div >{isActive ? '-' : '+'}</div>
         </Heading>
-        <Text as="p">{data.text}</Text>
+    </div>
+        {isActive && <Text as="p">{data.text}</Text>}
       </div>
     </div>
   );

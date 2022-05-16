@@ -11,20 +11,26 @@ const data = [
   {
     id: 1,
     icon: icon2,
-    title: 'Reason 1',
-    text: `Ultimate access to all credit popular exercises and assessments materials`,
+    title: 'We Deliver On-Demand, Real-Time Solutions Wherever You Are',
+    text: `It will never matter when or where you need help — Talent Giant always remains within your reach. Harnessing on digital evolution today, we meet the needs of our clients, making each of our offerings readily available whenever it is needed. You can be sure that our response will be prompt, easy to access, time-saving and as convenient as can be. Wherever you are, our solutions would come right to you!`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'Reason 2',
-    text: `Total assessment corrections with live support tickets download access system`,
+    title: 'We Connect You With Excellent Professional Partners',
+    text: `We are intentional about offering top-quality performance, and we do this by building a strong team consisting of professionals with specialized expertise in various fields. Our professionals have defined responsibilities that fit into Talent Giant’s mission and vision. Working together in this goal-oriented system and through collaborative efforts, we’re collectively focused on achieving clear, outstanding results for the good of our customers.`,
   },
   {
-    id: 2,
+    id:3,
     icon: icon2,
-    title: 'Reason 3',
-    text: `Total assessment corrections with live support tickets download access system`,
+    title: 'We Offer Premium Services Within Your Budget',
+    text: `It is never a one-size-fits-all when it comes to customer service, and budgets play a huge part in this. Talent Giant takes on a customer-centric approach that prioritizes and adequately fulfils our customer’s needs, and we do this by creating unique offerings that match the financial capacity of each customer. Talent Giant delivers excellent customer service within a budget frame-work, while still getting full value for your money. `,
+  },
+  {
+    id: 4,
+    icon: icon2,
+    title: 'We Provide Personalized Experiences',
+    text: `Needs are unique and preferences differ! At Talent Giant, we fully recognize and embrace this. We pride ourselves with the unique methods through which we provide tailor-made solutions to our customers. We proffer individualized experiences that align with specific demands and are tailored to meet multiple touchpoints. These include Tutoring services that impact well-rounded knowledge, Freelancing opportunities that match your skill set, Consultation sessions that provide insight, and Coaching services that give guidance and clarity.`,
   },
 ];
 
@@ -39,9 +45,9 @@ const Support = () => {
                Why Businesses Turn To Talent Giant
               </Heading>
               <Text as="p" sx={styles.summary}>
-                Get your tests delivered at let home collect sample from the
+                {/* Get your tests delivered at let home collect sample from the
                 victory of the managements that supplies best design system
-                guidelines ever.
+                guidelines ever. */}
               </Text>
             </div>
             {/* <SectionHeading

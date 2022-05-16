@@ -17,11 +17,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Talent Giant"
-          description="We give our clients access into a world of
-          opportunities to stay ahead of the game
-          and gain a competitive edge in a dynamic
-          business world."
+          title="Our Services "
+          description="Our goal is to ensure a sense of satisfaction and an overall fulfilling experience with Talent Giant"
         />
         {/* <Banner /> */}
  <div  style={{marginTop:100}}>

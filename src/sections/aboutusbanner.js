@@ -4,7 +4,7 @@ import { jsx, Box, Flex, Container, Heading, Text } from "theme-ui";
 import { rgba } from "polished";
 import Image from "components/image";
 import SubscriptionForm from "components/subscription-form";
-import illustration from "assets/images/banner-bg.png";
+import illustration from "assets/images/aboutus2.png";
 import paypal from "assets/images/paypal.png";
 import google from "assets/images/google.png";
 import dropbox from "assets/images/dropbox.png";
@@ -32,7 +32,7 @@ const ABanner = () => {
           <Box sx={styles.bannerContent}>
             <Heading style={{color: "#07703C", fontWeight: "bold"}} as="h1">Who We Are</Heading>
             <Text as="p">
-  
+            We give our clients access into a world of opportunities to stay ahead of the game and gain a competitive edge in a dynamic business world.
             </Text>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}
             {/* <Flex sx={styles.sponsoredBy}>

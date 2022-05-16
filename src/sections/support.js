@@ -7,18 +7,20 @@ import illustration from 'assets/images/support-2.png';
 import icon1 from 'assets/images/icons/1.png';
 import icon2 from 'assets/images/icons/2.png';
 
+
+
 const data = [
   {
     id: 1,
     icon: icon1,
     title: 'Email client support',
-    text: `Ultimate access to all credit popular exercises and assessments materials`,
+    text: `for enquiries, send us a mail: info@talentgiant.ca `,
   },
   {
     id: 2,
     icon: icon2,
     title: 'Live Chat',
-    text: `Total assessment corrections with live support tickets download access system`,
+    text: `Frank is always here to help you out with your urgent question`,
   },
 ];
 
@@ -50,6 +52,7 @@ const Support = () => {
           <Box as="figure" sx={styles.illustration} className="illustration">
             <Image src={illustration} alt="illustration" />
           </Box>
+  
         </div>
       </Container>
     </section>

@@ -6,23 +6,27 @@ import Layout from 'components/layout';
 import Banner from 'sections/aboutusbanner';
 import UltimateFeatures from 'sections/aboutusmission';
 import CustomerSupport from 'sections/customer-support';
-import Pricing from 'sections/pricing';
-import Support from 'sections/support';
-import Clients from 'sections/clients';
-import Blog from 'sections/blog';
+import Support from 'sections/whyus';
 import Faq from 'sections/faq';
+// import Pricing from 'sections/pricing';
+// import Support from 'sections/support';
+// import Clients from 'sections/clients';
+// import Blog from 'sections/blog';
+// import Faq from 'sections/faq';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Agency Digital"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="About us"
+          description="We give our clients access into a world of opportunities to stay ahead of the game and gain a competitive edge in a dynamic business world."
         />
         <Banner />
-        <CustomerSupport />
         <UltimateFeatures />
+        {/* <CustomerSupport /> */}
+        <Support />
+     <Faq />
      
      
         {/* <Clients /> */}

@@ -19,7 +19,7 @@ const styles = {
     maxWidth: [null, null, null, 185, null, 'none'],
     svg: {
       height: 'auto',
-      width: [128, null, '100%'],
+      width: [238, null, '100%'],
     },
   },
 };

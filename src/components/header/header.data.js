@@ -39,10 +39,6 @@ export default [
     label: 'Services',
   },
   {
-    path: 'whytalentgiant',
-    label: 'Why Talent Giant?',
-  },
-  {
     path: 'contactus',
     label: 'Contact us',
   },

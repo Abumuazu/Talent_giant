@@ -1,117 +1,80 @@
 export const menuItems = [
   {
     id: 1,
-    title: 'Company',
+    title: 'About us',
     items: [
    
       {
         path: '#!',
-        label: 'Careers & Culture    ',
-      },
-      {
-        path: 'blog',
-        label: 'Blog',
+        label: 'FAQs   ',
       },
   
     ],
   },
   {
     id: 2,
-    title: 'About Us',
+    title: 'Services',
     items: [
   
       {
-        path: 'contactus',
-        label: 'Customer Support',
+        path: 'services',
+        label: 'Tutoring',
       },
       {
-        path: 'aboutus',
-        label: 'About Us',
+        path: 'services',
+        label: 'Coaching',
       },
       {
-        path: '#!',
-        label: 'Copyright',
+        path: 'services',
+        label: 'Consulting',
       },
       {
-        path: '#!',
-        label: 'Popular Campaign',
+        path: 'services',
+        label: 'Freelancing',
       },
     ],
   },
   {
     id: 3,
-    title: 'Our Information',
+    title: 'Contact Us',
     items: [
       {
-        path: '#!',
-        label: 'Return Policy ',
+        path: 'mailto:info@talentgiant.ca',
+        label: 'info@talentgiant.ca',
+      },
+      {
+        path: 'https://www.linkedin.com/in/talent-giant-803627232',
+        label: 'Linkedin',
       },
       {
         path: '#!',
-        label: 'Privacy Policy',
+        label: 'twitter: @TalentGiant',
       },
-      {
-        path: '#!',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
-        label: 'Store Hours',
-      },
+     
     ],
   },
-  {
-    id: 4,
-    title: 'My Account',
-    items: [
-      {
-        path: '#!',
-        label: 'Press inquiries',
-      },
-      {
-        path: '#!',
-        label: 'Social media ',
-      },
-      {
-        path: '#!',
-        label: 'directories',
-      },
-      {
-        path: '#!',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '#!',
-        label: 'Permissions',
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: 'Policy',
-    items: [
-      {
-        path: '#!',
-        label: 'Application security',
-      },
-      {
-        path: '#!',
-        label: 'Software principles',
-      },
-      {
-        path: '#!',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '#!',
-        label: 'Responsible supply chain',
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: 'Policy',
+  //   items: [
+  //     {
+  //       path: '#!',
+  //       label: 'Application security',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Software principles',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Unwanted software policy',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Responsible supply chain',
+  //     },
+  //   ],
+  // },
 ];
 
 export const footerNav = [

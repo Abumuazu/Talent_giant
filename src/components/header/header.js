@@ -51,16 +51,17 @@ export default function Header() {
 
 const styles = {
   header: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#FFFFFF',
     position: 'fixed',
+    boxShadow: "0 24px 64px rgb(38 33 74 / 20%)",
     left: 0,
     right: 0,
     py: [5],
     transition: 'all 0.3s ease-in-out 0s',
     '&.is-sticky': {
-      backgroundColor: 'white',
+      backgroundColor: '#D9E287',
       boxShadow: '0px 20px 50px rgba(59, 90, 136, 0.05)',
-      py: [3],
+      py: [4],
     },
   },
   container: {
