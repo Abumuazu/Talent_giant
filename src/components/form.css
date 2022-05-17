@@ -3,7 +3,7 @@
     /* position: absolute;
     top: 50%;
     left: 50%; */
-    width: 90%;
+    width: 60%;
     padding: 40px;
     margin: 30px auto;
     /* transform: translate(-50%, -50%); */
@@ -13,6 +13,18 @@
     left: 0;
     border-radius: 10px;
   }
+  @media screen and (max-width: 1000px){
+
+    .login-box {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 600px){
+
+    .login-box {
+      width: 92%;
+    }
+}
 
   .select{
     background: transparent;
