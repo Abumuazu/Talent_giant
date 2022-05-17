@@ -46,7 +46,7 @@ function Form() {
         onChange={setSelectedOption} options={ Subjects } />
       </div>
       <div className="user-box">
-        <textarea style={{ border: "2px solid lightGray", width: "520px" , height:"200px", fontSize:"16px"}} type="textArea" name="phone number" required="" />
+        <textarea style={{ border: "2px solid lightGray", width: "100%" , height:"200px", fontSize:"16px"}} type="textArea" name="phone number" required="" />
         <label>message</label>
       </div>
     
