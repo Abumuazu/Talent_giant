@@ -35,18 +35,20 @@ const styles = {
   footer: {
     backgroundColor: '#F9FAFC',
     pt: 6,
+
   },
   footerTopInner: {
     gap: [50, null, null, null, 0, 50],
     display: ['grid'],
-    cursor: "pointer",
     gridTemplateColumns: [
-      'repeat(2, 1fr)',
+      'repeat(1, 1fr)',
       null,
       null,
       'repeat(3, 1fr)',
       'repeat(5, 1fr)',
     ],
+  
+    ml: [null, null, null, 300],
     mb: [null, null, null, 7],
   },
   footerInner: {

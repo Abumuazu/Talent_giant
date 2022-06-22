@@ -25,7 +25,7 @@ export default function IndexPage() {
        <div style={{marginTop: 100}}>
        <Support />
        </div>
-<Form />
+{/* <Form /> */}
       </Layout>
     </ThemeProvider>
   );

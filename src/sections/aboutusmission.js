@@ -10,6 +10,8 @@ import icon3 from 'assets/images/features/3.png';
 import icon4 from 'assets/images/features/4.png';
 import icon5 from 'assets/images/features/5.png';
 import icon6 from 'assets/images/features/6.png';
+import Card from "../components/cards/newCard"
+import 'tailwindcss/tailwind.css';
 
 const data = [
 
@@ -45,11 +47,14 @@ const UltimateFeatures = () => {
           slogan="Ideal solutions for you"
           title="Our product offerings"
         /> */}
-        <Box sx={styles.grid}>
+        {/* <Box sx={styles.grid}>
           {data?.map((item) => (
             <Feature className="feature-item" key={item.id} data={item} />
           ))}
-        </Box>
+        </Box> */}
+<Card />
+
+
       </Container>
     </section>
   );

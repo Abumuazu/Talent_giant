@@ -8,61 +8,77 @@ import Link from 'next/link';
 const data = [
   {
     id: 1,
-    title: `01. Which domain should I purchase?`,
+    title: `How do I sign up for a service?`,
     contents: (
       <div>
-        Get your website tests delivered at the home collect a sample. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+      Please send an email to info@talentgiant.ca or via our website using &quot;contact us&quot;
       </div>
     ),
   },
   {
     id: 2,
-    title: `02. What are some tips when choosing a name?`,
+    title: `How do I get paired with a tutor who will address my key areas of need?`,
     contents: (
       <div>
-        We make it easy to move to CometNine. Simply contact us and we'll move
-        your hosting account from any other provider, regardless of the control
-        panel. If at anytime your website is down for more than 0.1% result with
-        proper investigation experiments.
+       Before a tutor is assigned to a student, our Education Consultant will meet with the
+student to assess the need for a tutor, document the specific areas of focus of the
+student, and thereafter match the student to the most appropriate tutor from our
+pool of seasoned and qualified tutors.
       </div>
     ),
   },
   {
     id: 3,
-    title: `03. What if I need help choosing the right domain?`,
+    title: `What’s the delivery mode for the tutoring/coaching sessions?`,
     contents: (
       <div>
-        Create a hub for cross-functional work that also works with all. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+       Our tutoring/coaching sessions are customized to each individual and are currently
+held online. This is a great option for busy students and draws on the vast
+experience of our worldwide network.
       </div>
     ),
   },
   {
     id: 4,
-    title: `04. Can I upgrade or downgrade my web hosting subscription system?`,
+    title: `What subjects do you offer tutoring in?`,
     contents: (
       <div>
-        The pricing made me a little hesitant at first but I have been. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+     We offer tutoring in a variety of topics as well as for certifications. Our most in-
+demand are Business Analysis, CFA, Project Management, Financial Planning,
+Test prep, and more.
       </div>
     ),
   },
   {
     id: 5,
-    title: `05. Learn from community on Brandwagon`,
+    title: `What type and size companies do you work with?`,
     contents: (
       <div>
-        Stop your viewers from getting distracted. Publish videos to. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+      We have experience working with companies in diverse industries (e.g. IT, Health,
+Finance, Real estate, etc.) and our clients range from 2 – 200 employees and from
+pre-launch start-ups to companies with $1 billion dollars in annual revenue.
+      </div>
+    ),
+  },
+  {
+    id: 6,
+    title: `What are your consulting rates?`,
+    contents: (
+      <div>
+    We believe in providing value to each of our clients and are committed to
+delivering results. We provide our clients with a cost estimate prior to starting work,
+engage our clients to understand their specific business needs and then outline
+our plan of action and the associated costs to implement those solutions.
+      </div>
+    ),
+  },
+  {
+    id: 7,
+    title: `What are your in-demand consulting services?`,
+    contents: (
+      <div>
+Our in-demand consulting services includes Bookkeeping, Tax filing, Financial
+Advisory, Career Coaching, Writing Business Plan, Personal Effectiveness, etc.
       </div>
     ),
   },
@@ -74,7 +90,7 @@ const Faq = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [6, null, null, 12, 17] }}
-          slogan="Get your question answer"
+          slogan="Get your question answered"
           title="Frequently asked question"
         />
 

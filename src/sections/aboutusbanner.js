@@ -30,8 +30,9 @@ const ABanner = () => {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
-            <Heading style={{color: "#07703C", fontWeight: "bold"}} as="h1">Who We Are</Heading>
+            <Heading  style={{color: "#07703C", fontWeight: "bold"}} as="h1">Who We Are</Heading>
             <Text as="p">
+   
             We give our clients access into a world of opportunities to stay ahead of the game and gain a competitive edge in a dynamic business world.
             </Text>
             {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}

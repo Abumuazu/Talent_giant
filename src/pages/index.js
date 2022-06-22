@@ -1,9 +1,11 @@
+
 import React from 'react';
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from 'sections/banner';
+import Hero from '../components/NewHero/hero';
 import UltimateFeatures from 'sections/ultimate-features';
 import CustomerSupport from 'sections/customer-support';
 import Pricing from 'sections/pricing';
@@ -23,7 +25,7 @@ export default function IndexPage() {
           and gain a competitive edge in a dynamic
           business world."
         />
-        <Banner />
+        <Hero />
         {/* <UltimateFeatures />
         <CustomerSupport />
         <Pricing />

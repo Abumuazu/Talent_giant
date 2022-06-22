@@ -1,0 +1,93 @@
+
+/* .header  {
+  box-sizing: border-box;
+  font-size: 50%;
+}
+@media only screen and (min-width: 37.5em) {
+  .header  {
+    font-size: 56.25%;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .header  {
+    font-size: 62.5%;
+  }
+} */
+
+/* body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  background: #f5f4f6;
+} */
+
+.header {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  background: #f5f4f6;
+  padding: 0 2rem;
+  min-height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/whyus.png');
+  background-size: cover;
+  background-position:top;
+  /* background-repeat: no-repeat; */
+
+}
+
+
+
+
+.hero {
+  position: absolute;
+  top: 50%;
+
+  /* transform: translate(0, -50%); */
+}
+@media only screen and (min-width: 75em) {
+  .hero {
+    width: 100rem;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .hero__inner {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .hero__inner {
+    width: 60%;
+  }
+}
+.hero__heading {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+
+}
+.hero--highlight {
+  font-weight: 200;
+}
+.hero__content {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  max-width: 60%;
+}
+.hero__btn {
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #7f54b3;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 1.6rem 3.2rem;
+  margin-top: 4.8rem;
+  cursor: pointer;
+}

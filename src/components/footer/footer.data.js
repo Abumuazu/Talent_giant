@@ -1,3 +1,6 @@
+import link from "../../assets/images/icons/linkedin.png"
+import twitter from "../../assets/images/icons/twitter.png"
+import gmail from "../../assets/images/icons/gmail.png"
 export const menuItems = [
   {
     id: 1,
@@ -5,7 +8,7 @@ export const menuItems = [
     items: [
    
       {
-        path: '#!',
+        path: 'aboutus',
         label: 'FAQs   ',
       },
   
@@ -39,16 +42,21 @@ export const menuItems = [
     title: 'Contact Us',
     items: [
       {
-        path: 'mailto:info@talentgiant.ca',
-        label: 'info@talentgiant.ca',
+        path: 'mailto:someone@yoursite.com?subject=Enquiries',
+        // label: 'info@talentgiant.ca',
+        icon: gmail
       },
       {
-        path: 'https://www.linkedin.com/in/talent-giant-803627232',
-        label: 'Linkedin',
+       
+        path: 'https://www.linkedin.com/in/talent-giant',
+        // label: 'Linkedin',
+        icon: link,
+       
       },
       {
-        path: '#!',
-        label: 'twitter: @TalentGiant',
+        path: 'https://twitter.com/TalentGiant',
+        // label: 'twitter',
+        icon: twitter
       },
      
     ],

@@ -59,7 +59,7 @@ const styles = {
     py: [5],
     transition: 'all 0.3s ease-in-out 0s',
     '&.is-sticky': {
-      backgroundColor: '#D9E287',
+      backgroundColor: '#FFFFFF',
       boxShadow: '0px 20px 50px rgba(59, 90, 136, 0.05)',
       py: [4],
     },

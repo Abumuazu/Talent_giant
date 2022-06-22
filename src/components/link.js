@@ -6,22 +6,22 @@ import { Link as MenuLink } from 'react-scroll';
 import { IoIosArrowForward } from 'react-icons/io';
 import { keyframes } from '@emotion/react';
 
-// export function NavLink({ path, label, children, ...rest }) {
-//   return (
-//     <MenuLink
-//       to={path}
-//       spy={true}
-//       offset={-70}
-//       smooth={true}
-//       duration={500}
-//       className="nav-item"
-//       activeClass="active"
-//       {...rest}
-//     >
-//       {label}
-//     </MenuLink>
-//   );
-// }
+export function NavLink({ path, label, children, ...rest }) {
+  return (
+    <MenuLink
+      to={path}
+      spy={true}
+      offset={-70}
+      smooth={true}
+      duration={500}
+      className="nav-item"
+      activeClass="active"
+      {...rest}
+    >
+      {label}
+    </MenuLink>
+  );
+}
 
 export function Link({ path, label, children, ...rest }) {
   return (
@@ -46,9 +46,10 @@ const fadeRight = keyframes`
     opacity: 0;
     transform: translateX(-5px);
   }
-  to: {
+  to {
     opacity: 1;
   }
+
 `;
 
 const styles = {

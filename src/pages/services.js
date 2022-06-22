@@ -11,7 +11,7 @@ import Support from 'sections/support';
 import Clients from 'sections/clients';
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
-
+import Hero from '../components/NewHero/servicesHero';
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
@@ -22,6 +22,7 @@ export default function IndexPage() {
         />
         {/* <Banner /> */}
  <div  style={{marginTop:100}}>
+  <Hero/>
  <UltimateFeatures />
  </div>
       

@@ -8,6 +8,8 @@ import UltimateFeatures from 'sections/aboutusmission';
 import CustomerSupport from 'sections/customer-support';
 import Support from 'sections/whyus';
 import Faq from 'sections/faq';
+import Hero from '../components/NewHero/aboutusHero';
+
 // import Pricing from 'sections/pricing';
 // import Support from 'sections/support';
 // import Clients from 'sections/clients';
@@ -22,7 +24,8 @@ export default function IndexPage() {
           title="About us"
           description="We give our clients access into a world of opportunities to stay ahead of the game and gain a competitive edge in a dynamic business world."
         />
-        <Banner />
+        {/* <Banner /> */}
+        <Hero/>
         <UltimateFeatures />
         {/* <CustomerSupport /> */}
         <Support />
