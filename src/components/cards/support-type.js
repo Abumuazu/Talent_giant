@@ -11,15 +11,16 @@ const SupportType = ({ data }) => {
   return (
     <div sx={styles.card}>
       <Flex as="figure" sx={styles.icon}>
-        <Image src={data.icon} alt="" />
+        {/* <Image src={data.icon} alt="" /> */}
       </Flex>
       <div sx={styles.content}>
-    <div onClick={() => setIsActive(!isActive)}>
-    <Heading as="h3" style= {{cursor: 'pointer'}} >
+    <div style= {{cursor: 'pointer', display:'flex', justifyContent:'space-between'}} onClick={() => setIsActive(!isActive)}>
+    <Heading as="h3"  >
           {data.title}{' '}
           {/* <HiOutlineArrowNarrowRight color={rgba('#0F2137', 0.3)} /> */}
-          <div >{isActive ? '-' : '+'}</div>
+        
         </Heading>
+        <div style={{marginLeft: 20, color:'#000', fontWeight:'900'}}>{isActive ? '-' : '>'}</div>
     </div>
         {isActive && <Text as="p">{data.text}</Text>}
       </div>
@@ -32,21 +33,18 @@ export default SupportType;
 const styles = {
   card: {
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'flex-start',
+    // justifyContent: 'space-between',
     mt: 7,
   },
-  icon: {
-    alignItems: 'center',
-    mr: 4,
-    minWidth: [42, null, null, 60],
-  },
+
   content: {
     h3: {
       fontSize: [2, null, null, 3],
       fontWeight: 700,
       mb: 2,
       display: 'flex',
-      alignItems: 'center',
+      alignItems: 'flex-start',
       svg: {
         ml: 2,
       },

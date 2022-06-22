@@ -5,7 +5,7 @@ import { Card, Grid, Text, Button, Row } from "@nextui-org/react";
 
 export default function App() {
   return (
-    <Grid.Container justify="center" gap={-10}>
+    <Grid.Container justify="center" gap={2}>
   
   <Grid sm={12} md={5}>
         <Card css={{ mw: "330px" }}>
